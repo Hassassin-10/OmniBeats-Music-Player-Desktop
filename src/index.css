@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-omni-green: #05F219;
+  --color-omni-bg: #000000;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-omni-bg);
+  color: var(--color-omni-green);
+  font-family: 'Share Tech Mono', 'Courier New', monospace;
+  overflow: hidden; /* App handles scrolling */
+  user-select: none;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0f0a;
+}
+::-webkit-scrollbar-thumb {
+  background: #03a110;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #05F219;
+}
+
+/* Glassmorphism utility */
+.glass-panel {
+  background: rgba(5, 242, 25, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(5, 242, 25, 0.2);
+  box-shadow: 0 0 15px rgba(5, 242, 25, 0.1);
+}
