@@ -1,7 +1,7 @@
 # 🟢 OmniBeats // v1.0
 
 > **A futuristic, Ben 10 Omnitrix-inspired music player for Windows.**  
-> Built with Electron, React, TypeScript, and Tailwind CSS.
+> Built with Electron, React, TypeScript, and Tailwind CSS.. 
 
 ![OmniBeats App](/public/out.png)
 
